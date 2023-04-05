@@ -24,7 +24,7 @@ def start():
         driver.get("https://scrap.tf/raffles")
         time.sleep(3)
     except:
-        print("какая то ошибка которую я фиксил и не пофиксил!(НЕ КРИТИЧНО)")
+        print("какая то ошибка которую я фиксил и не пофиксил!(НЕ КРИТИЧНО)") #Аня я буду любить тебя вечно, даже в другой жизни найду и полюблю!
     for j in range(4):
         driver.execute_script("window.scrollBy(0,10000)","")
         time.sleep(2)
